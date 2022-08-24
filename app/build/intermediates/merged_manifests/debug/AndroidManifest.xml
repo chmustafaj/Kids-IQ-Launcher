@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.benny.openlauncher.debug"
+    android:versionCode="43"
+    android:versionName="0.7.5" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        android:minSdkVersion="30" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <queries>
+
+        <!-- Query Camera Packages -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <!-- Query Open Document -->
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+        </intent>
+    </queries> <!-- suppress DeprecatedClassUsageInspection -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name="com.kids.launcher.AppObject"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="false"
+        android:launchMode="singleTask"
+        android:resizeableActivity="false"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Home.Light" >
+        <activity
+            android:name="com.kids.launcher.activity.timeLimit.UserLock"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.timeLimit.ProfileLock"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.timeLimit.subFeatures.InputMonitoring"
+            android:exported="false" />
+        <activity android:name="com.kids.launcher.activity.profileManagement.AccessProfileManagementActivity" />
+        <activity android:name="com.kids.launcher.activity.globalSettingsItems.pinLock.PinLockActivity" />
+        <activity android:name="com.kids.launcher.activity.globalSettingsItems.patternLock.PatternLockActivity" />
+        <activity android:name="com.kids.launcher.activity.UserManagement.UserDetailsActivity" />
+        <activity android:name="com.kids.launcher.activity.profileManagement.ProfileDetailsActivity" />
+        <activity
+            android:name="com.kids.launcher.activity.blockActivity.BlockActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.timeLimit.TimeLimitActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.timeLimit.subFeatures.UsageTimeLimit"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.profileManagement.CreateProfileManagement"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.profileManagement.ProfileManagement"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.timeLimit.subFeatures.AddFunProfiles"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.UserManagement.CreateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.UserManagement.UserManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.globalSettingsItems.AdminPassActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.globalSettingsItems.LanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.GlobalSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.kids.launcher.activity.MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:stateNotNeeded="true"
+            android:taskAffinity=""
+            android:windowSoftInputMode="adjustNothing" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+
+        <activity
+            android:name="com.kids.launcher.activity.OnBoardActivity"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/IntroTheme" />
+        <activity
+            android:name="com.kids.launcher.activity.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.kids.launcher.activity.AutoFinishActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.kids.launcher.activity.MinibarEditActivity"
+            android:label="@string/minibar"
+            android:parentActivityName="com.kids.launcher.activity.HomeActivity"
+            android:theme="@style/NormalActivity.Light" />
+        <activity
+            android:name="com.kids.launcher.activity.SettingsActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:label="@string/pref_title__settings"
+            android:theme="@style/NormalActivity.Light" />
+        <activity
+            android:name="com.kids.launcher.activity.HideAppsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NormalActivity.Light" />
+        <activity
+            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kids.launcher.activity.AddShortcutActivity"
+            android:autoRemoveFromRecents="true"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme" >
+            <intent-filter>
+                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.kids.launcher.receivers.DeviceAdminReceiver"
+            android:exported="true"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+        </receiver>
+        <receiver
+            android:name="com.kids.launcher.receivers.ShortcutReceiver"
+            android:exported="true"
+            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT" >
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.kids.launcher.notifications.NotificationListener"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/icon_badge_service_title"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.kids.launcher.system.TimeCheckerService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="TimeUpChecker" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.benny.openlauncher.debug.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+
+        <provider
+            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+            android:authorities="com.benny.openlauncher.debug.customactivityoncrashinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+
+        <activity
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/Theme.Transparent.ImagePicker" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+            android:authorities="com.benny.openlauncher.debug.imagepicker.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/image_picker_provider_paths" />
+        </provider>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.benny.openlauncher.debug.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" />
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false" />
+
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:directBootAware="false"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:directBootAware="false"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true" >
+            <meta-data
+                android:name="com.google.android.play.core.assetpacks.versionCode"
+                android:value="11003" />
+        </service>
+        <service
+            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+            android:enabled="false"
+            android:exported="false" />
+
+        <provider
+            android:name="razerdp.basepopup.BasePopupInitializer"
+            android:authorities="com.github.razerdp.com.benny.openlauncher.debug.BasePopupInitializer"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <EditText
+        android:id="@+id/edtMaxConsecutiveTime"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/edittext_hint_max_consecutive_time"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtBreakTime"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/edittext_hint_break_time"
+        android:layout_below="@+id/edtMaxConsecutiveTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edtBreakTime"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Done" />
+</RelativeLayout>

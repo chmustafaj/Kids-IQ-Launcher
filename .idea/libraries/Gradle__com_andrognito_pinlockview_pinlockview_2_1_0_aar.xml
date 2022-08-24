@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.andrognito.pinlockview:pinlockview:2.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0db80fb1e16fde81929456dda4f35c89/transformed/jetified-pinlockview-2.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0db80fb1e16fde81929456dda4f35c89/transformed/jetified-pinlockview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0db80fb1e16fde81929456dda4f35c89/transformed/jetified-pinlockview-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0db80fb1e16fde81929456dda4f35c89/transformed/jetified-pinlockview-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.andrognito.pinlockview/pinlockview/2.1.0/14aa8b6935fb9dd52938c5b6605e4d97f84f50fa/pinlockview-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.andrognito.pinlockview/pinlockview/2.1.0/78bfb6077974bd1deeb388269172ef09f097b9b7/pinlockview-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardCornerRadius="40dp"
+    android:elevation="50dp"
+    app:cardBackgroundColor="#b5b5b5"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Day 1"
+            android:textSize="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtDay1" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="___"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:text="Day2"
+            android:layout_toRightOf="@+id/line"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:id="@+id/txtDay2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Time 1"
+            android:textSize="20dp"
+            android:layout_below="@+id/txtDay1"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtTime1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_below="@+id/txtDay1"
+            android:textColor="@color/black"
+            android:text="___"
+            android:id="@+id/line2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txtTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDay1"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/line"
+            android:text="Time2"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

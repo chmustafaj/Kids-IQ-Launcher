@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.reginald:patternlock:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/14d487fd697a49f986aec2c8e5ad15ff/transformed/jetified-patternlock-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14d487fd697a49f986aec2c8e5ad15ff/transformed/jetified-patternlock-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14d487fd697a49f986aec2c8e5ad15ff/transformed/jetified-patternlock-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.reginald/patternlock/2.0.0/59a2ad8efe010962814fac4fecbb329c5498f90a/patternlock-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.reginald/patternlock/2.0.0/a0610a02deddcbdf1031cbea0d45bdb3b583de1f/patternlock-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kids.launcher.app-mergeDebugResources-54:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ahsan\\.gradle\\caches\\transforms-3\\a88a85820e71c43cc038909fb5d3e157\\transformed\\appcompat-1.4.2\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_add_fun_profiles.xml" value="0.17864583333333334" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_create_profile_management.xml" value="0.4" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_global_settings.xml" value="0.12552083333333333" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_input_monitoring.xml" value="0.25625" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_profile_lock.xml" value="0.25625" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_settings.xml" value="0.12552083333333333" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_time_limit.xml" value="0.2140625" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_time_management.xml" value="0.2140625" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_user_lock.xml" value="0.178125" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/activity_user_profile_details.xml" value="0.12552083333333333" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/item_usage_time.xml" value="0.25625" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/popup_break_time_picker.xml" value="0.15260416666666668" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/popup_daily_time_charge.xml" value="0.264" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/popup_profile_time_picker.xml" value="0.234375" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/popup_set_profile_lock_date_and_time.xml" value="0.19010416666666666" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/popup_timelimit_picker.xml" value="0.15260416666666668" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/popup_unused_time.xml" value="0.20052083333333334" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/set_lock_popup.xml" value="0.2552083333333333" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/usage_time_popup.xml" value="0.22864583333333333" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncher/app/src/main/res/layout/user_item.xml" value="0.12552083333333333" />
+        <entry key="..\:/Programming/AndroidProjects/ChaudhryUpdatedKidsLauncherToDebug/app/src/main/res/layout/usage_time_popup.xml" value="0.25625" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/drawable/exit.xml" value="0.161" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_access_profile_management.xml" value="0.1515625" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_admin_pass.xml" value="0.1" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_create_profile_management.xml" value="0.11510416666666666" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_hide_apps.xml" value="0.25625" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_time_limit.xml" value="0.36875" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_time_management.xml" value="0.21510416666666668" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/activity_user_mangement.xml" value="0.25625" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/dialog_time_picker.xml" value="0.2" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/item_usage_time.xml" value="0.22287968441814596" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/pattern_for_user.xml" value="0.12708333333333333" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/popup_time_up.xml" value="0.264" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/popup_timelimit_picker.xml" value="0.2" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/popup_timeout.xml" value="0.2" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/profile_item.xml" value="0.2" />
+        <entry key="..\:/Programming/AndroidProjects/UpatedSiedna/app/src/main/res/layout/usage_time_popup.xml" value="0.25625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

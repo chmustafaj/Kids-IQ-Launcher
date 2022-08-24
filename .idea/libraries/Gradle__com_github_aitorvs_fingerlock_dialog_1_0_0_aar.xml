@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.aitorvs.fingerlock:dialog:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/805af2229f5ffb449bc9639f002d56a3/transformed/jetified-dialog-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/805af2229f5ffb449bc9639f002d56a3/transformed/jetified-dialog-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/805af2229f5ffb449bc9639f002d56a3/transformed/jetified-dialog-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

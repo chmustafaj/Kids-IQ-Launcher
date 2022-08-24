@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <Spinner
+        android:id="@+id/firstDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/spinnerItems" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerItems"
+        android:layout_margin="20dp"
+        android:id="@+id/secondDay"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/timeOne"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstDay"
+        android:layout_marginStart="50dp"
+        android:focusable="false"
+        android:hint="From"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/timeTwo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstDay"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:hint="To"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Done"
+        android:layout_below="@id/timeOne"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnDone" />
+
+</RelativeLayout>

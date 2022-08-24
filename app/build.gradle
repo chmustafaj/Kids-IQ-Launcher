@@ -1,0 +1,120 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+   // buildToolsVersion '32.0.0' //from 30.0.0
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 32
+        //multiDexEnabled false
+
+        applicationId "com.benny.openlauncher"
+        versionCode 43
+        versionName "0.7.5"
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE-LGPL-2.1.txt'
+        exclude 'META-INF/LICENSE-LGPL-3.txt'
+        exclude 'META-INF/LICENSE-W3C-TEST'
+    }
+
+    lintOptions {
+        disable 'MissingTranslation', 'InvalidPackage', 'ObsoleteLintCustomCheck', 'DefaultLocale', 'UnusedAttribute', 'VectorRaster', 'InflateParams', 'IconLocation', 'UnusedResources', 'TypographyEllipsis'
+        abortOnError false
+    }
+}
+
+dependencies {
+    // Support libraries
+    implementation 'androidx.recyclerview:recyclerview:1.2.1' //from 1.0.0
+    implementation 'androidx.appcompat:appcompat:1.4.2' //from 1.0.0
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.material:material:1.6.1' //from 1.0.0
+    implementation 'androidx.preference:preference:1.2.0' //from 1.0.0
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' //from 1.1.3
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.2.1'
+
+    // UI Libs
+    implementation 'com.mikepenz:fastadapter:3.2.3@aar'
+    implementation 'com.mikepenz:fastadapter-commons:3.0.0@aar'
+    implementation 'com.mikepenz:fastadapter-extensions:3.0.0@aar'
+    implementation 'jp.wasabeef:recyclerview-animators:2.2.7'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'agency.tango.android:material-intro-screen:0.0.5'
+    implementation 'cat.ereza:customactivityoncrash:2.2.0'
+    implementation 'de.psdev.licensesdialog:licensesdialog:1.8.3'
+    implementation 'com.github.championswimmer:SimpleFingerGestures_Android_Library:1.1'
+    implementation 'com.nononsenseapps:filepicker:4.2.1'
+    implementation 'org.slf4j:slf4j-android:1.7.21'
+
+    implementation('com.github.ozodrukh:CircularReveal:2.0.1@aar') {
+        transitive = true
+    }
+
+    implementation('com.github.turing-tech:MaterialScrollBar:13.3.0') {
+        exclude group: 'com.android.support'
+    }
+
+    // Tools
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.florent37:singledateandtimepicker:2.2.7'
+//compatible with androidX
+    // Processors
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    //ImagePicker
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+    def room_version = "2.4.2"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    //Biometric
+    implementation 'com.google.android.play:core:1.10.3'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    implementation 'io.github.razerdp:BasePopup:3.2.0' //Customizable Popup Dialog
+
+    implementation "androidx.work:work-runtime:2.7.1" //WorkManager API
+
+    implementation 'io.github.ShawnLin013:number-picker:2.4.13' //Number picker Shhaolin
+
+    //Lock
+    implementation 'com.andrognito.pinlockview:pinlockview:2.1.0'
+    implementation 'com.reginald:patternlock:2.0.0'
+    implementation 'com.andrognito.patternlockview:patternlockview:1.0.0'
+    implementation 'com.github.aitorvs.fingerlock:dialog:1.0.0'
+    implementation 'co.infinum:goldfinger:2.1.0'
+
+    implementation 'com.github.ajalt.reprint:core:3.3.2@aar'
+
+
+}
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Profile: "
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/exit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/exit"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@+id/txtProfile"
+        android:text="profile name"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtBlocked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtProfile"
+        android:layout_marginStart="20dp"
+        android:text="Blocked"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imgSadFace"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtBlocked"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/sad_face" />
+
+    <TextView
+        android:id="@+id/txtReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSadFace"
+        android:layout_marginStart="20dp"
+        android:text="Reason:"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtTimesUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtReason"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="•	  Time's up"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtBreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTimesUp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="•	  Take a break"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/txtBreak"
+        android:text="•	  Maximum time of day reached"
+        android:id="@+id/txtMax"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/txtMax"
+        android:text="•	  Not on schedule"
+        android:id="@+id/txtSchedule"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_below="@+id/txtSchedule"
+        android:id="@+id/txtUserBlocked"
+        android:text="•	  User Blocked"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtGlobalLock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUserBlocked"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="•	  Global Lock"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtEarnTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGlobalLock"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Earning time is possible through:"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtStudyProfiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEarnTime"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="•	  Study Profiles"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtStudyProfiles"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="•	  Job done->Parents can save time"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>

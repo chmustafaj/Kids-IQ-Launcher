@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/indicator_dots"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="80dp"
+            android:text="Create Pin"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <com.andrognito.pinlockview.IndicatorDots
+            android:id="@+id/indicator_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pin_lock"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+        <!--Dots to create pattern pass word-->
+        <com.andrognito.pinlockview.PinLockView
+            android:id="@+id/pin_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            app:correctStateColor="#8442B3"
+            app:dotDiameter="12dp"
+            app:dotSpacing="16dp"
+            app:normalStateColor="@color/colorPrimaryDark"
+            app:wrongStateColor="#E91E63" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pin_lock"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Continue"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <!--Text View to display title-->
+
+
+</RelativeLayout>

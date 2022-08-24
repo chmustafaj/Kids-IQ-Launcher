@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kids.launcher.app-mergeDebugResources-54:/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ahsan\\.gradle\\caches\\transforms-3\\4fa670b06a59841dc73fbcf4f62aa061\\transformed\\jetified-singledateandtimepicker-2.2.7\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,96,137",
+                        "endColumns": "40,40,43",
+                        "endOffsets": "91,132,176"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ahsan\\.gradle\\caches\\transforms-3\\d9a5336a9ffc8fdd60172c908e61645f\\transformed\\jetified-ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "181,235,289",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "230,284,331"
+                    }
+                }
+            ]
+        }
+    ]
+}
