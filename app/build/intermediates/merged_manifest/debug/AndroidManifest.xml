@@ -51,7 +51,6 @@
         android:launchMode="singleTask"
         android:resizeableActivity="false"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Home.Light" >
         <activity
             android:name="com.kids.launcher.activity.timeLimit.UserLock"

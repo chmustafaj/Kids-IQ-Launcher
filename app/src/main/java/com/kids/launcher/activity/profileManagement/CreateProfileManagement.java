@@ -312,17 +312,10 @@ public class CreateProfileManagement extends AppCompatActivity implements View.O
                     if (getIntent().getStringExtra("lock_time") != null) {
                         profile.lockTime = getIntent().getStringExtra("lock_time");
                     }
-                    Log.d(TAG, "onClick: adding input detection time " + profile.inputDetectionTime);
+                Log.d(TAG, "onClick: usage time "+profile.strUsageTimes );
                     /** Adding the profile to a user's profile set and saving it locally */
                     user.profiles.add(profile);
-                    Log.d(TAG, "onClick: fun profiles set " + profile.funProfiles);
-                    Log.d(TAG, "onClick: max profile time set " + profile.timelimit);
-                    Log.d(TAG, "onClick: input time set " + profile.inputDetectionTime);
-                    Log.d(TAG, "onClick: is study profile " + profile.isStudyProfile);
-                    Log.d(TAG, "onClick: Usage times set " + profile.strUsageTimes);
-                    Log.d(TAG, "onClick: adding profile " + profile);
                     PrefUtils.saveUser(user, this, gson);
-                    Log.d(TAG, "onClick: user saved");
                     Intent intent1 = new Intent(CreateProfileManagement.this, ProfileManagement.class);
                     intent1.putExtra("user", usr);
                     startActivity(intent1);

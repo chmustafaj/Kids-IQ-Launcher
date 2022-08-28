@@ -31,10 +31,9 @@ public class UsageTimeDialog extends DialogFragment {
     private PassUsageTime passUsageTime;
     EditText t1, t2;
     Button done;
-    String d1, d2, time1, time2;
+    String time1, time2;
     Spinner spinnerOne, spinnerTwo;
     TimePickerDialog picker;
-    UsageTime usageTime = new UsageTime();
     String strUsageTime = "";
     String[] arrUsageTime;
 
@@ -81,14 +80,10 @@ public class UsageTimeDialog extends DialogFragment {
         done.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //if (!t1.getText().toString().equals("") && !t2.getText().toString().equals("")) {
                 time1 = t1.getText().toString();
                 Log.d(TAG, "onClick: time 1 " + time1);
                 time2 = t2.getText().toString();
                 strUsageTime = time1 + "," + time2 + ",";
-//                usageTime.timeOne=timeFromStringToInt(time1);
-//                usageTime.timeTwo=timeFromStringToInt(time2);
-                //Log.d(TAG, "onClick: spinner "+spinnerOne.toString());
                 switch (spinnerOne.getSelectedItem().toString()) {
                     case "Select day":
                         strUsageTime = strUsageTime + "0,";
@@ -153,8 +148,8 @@ public class UsageTimeDialog extends DialogFragment {
                 arrUsageTime = strUsageTime.split(",");  //array will be [time 1, time 2, day 1, day 2]
                 if (t1.getText().toString().equals("") || t2.getText().toString().equals("")) {
                     Toast.makeText(getActivity(), "Please enter both times", Toast.LENGTH_SHORT).show();
-                } else if (arrUsageTime[2].equals("0")) {
-                    Toast.makeText(getActivity(), "Please enter a first day", Toast.LENGTH_SHORT).show();
+                } else if (arrUsageTime[2].equals("0")||arrUsageTime[3].equals("0")) {
+                    Toast.makeText(getActivity(), "Please select a first day", Toast.LENGTH_SHORT).show();
                 } else {
                     try {
                         passUsageTime = (PassUsageTime) getActivity();

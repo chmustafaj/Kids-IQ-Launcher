@@ -182,6 +182,7 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                 if (profile.name.equals(profileName)) {
                     Date lockDate=null;
                     Date lockTime=null;
+                    Log.d(TAG, "checkTimeup: usage time"+profile.strUsageTimes);
                     Log.d(TAG, "checkTimeup: lock time "+profile.lockTime);
                     Log.d(TAG, "checkTimeup: lock date "+profile.lockDate);
                     Log.d(TAG, "checkTimeup: current date "+currentDate);
@@ -258,7 +259,6 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                     }
 
 
-                    Log.d(TAG, "checkTimeup: protile time limit " + profile.timelimit);
                     if (profile.timelimit == -1) {
                     }
                     timePass = TimeManagementUtils.getInstance(context).getTimeByProfileName(profileName);
@@ -273,43 +273,63 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                             return new Pair<>(true, profile.name);
                         }
                     }
+                    Log.d(TAG, "checkTimeup: checking usage time");
                     Calendar cal = Calendar.getInstance();
                     SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm");
                     String strDate = dateFormat.format(cal.getTime());
                     float presentTime = timeFromStringToFloat(strDate);
                     int day = cal.get(Calendar.DAY_OF_WEEK);
+                    Log.d(TAG, "checkTimeup: day date "+day);
+
                     switch (day) {
                         case Calendar.SUNDAY:
                             if (presentTime < t1Sun || presentTime > t2Sun) {
+                                Log.d(TAG, "checkTimeup: sun1 "+t1Sun+" sun2 "+t2Sun);
+                                Log.d(TAG, "checkTimeup: usage time up sun");
                                 return new Pair<>(true, profile.name);
                             }
+                            break;
                         case Calendar.MONDAY:
                             if (presentTime < t1Mon || presentTime > t2Mon) {
-                                Log.d(TAG, "checkTimeup: usage time up");
+                                Log.d(TAG, "checkTimeup: usage time up mon");
                                 return new Pair<>(true, profile.name);
                             }
+                            break;
                         case Calendar.TUESDAY:
                             if (presentTime < t1Tue || presentTime > t2Tue) {
+                                Log.d(TAG, "checkTimeup: usage time up tue");
                                 return new Pair<>(true, profile.name);
 
                             }
+                            break;
                         case Calendar.WEDNESDAY:
                             if (presentTime < t1Wed || presentTime > t2Wed) {
+                                Log.d(TAG, "checkTimeup: usage time up wed");
+
                                 return new Pair<>(true, profile.name);
                             }
+                            break;
                         case Calendar.FRIDAY:
                             if (presentTime < t1Fri || presentTime > t2Fri) {
+                                Log.d(TAG, "checkTimeup: usage time up fri");
+
                                 return new Pair<>(true, profile.name);
                             }
+                            break;
                         case Calendar.THURSDAY:
                             if (presentTime < t1Thu || presentTime > t2Thu) {
+                                Log.d(TAG, "checkTimeup: usage time up thu");
+
                                 return new Pair<>(true, profile.name);
                             }
                             break;
                         case Calendar.SATURDAY:
                             if (presentTime < t1Sat || presentTime > t2Sat) {
+                                Log.d(TAG, "checkTimeup: usage time up sat");
+
                                 return new Pair<>(true, profile.name);
                             }
+                            break;
                     }
                 }
 

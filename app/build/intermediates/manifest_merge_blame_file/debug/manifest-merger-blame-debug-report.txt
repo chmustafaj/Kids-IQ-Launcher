@@ -105,680 +105,679 @@
 52-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:33:9-43
 53        android:supportsRtl="true"
 53-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:34:9-35
-54        android:testOnly="true"
-55        android:theme="@style/Home.Light" >
-55-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:35:9-42
-56        <activity
-56-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:36:9-38:40
-57            android:name="com.kids.launcher.activity.timeLimit.UserLock"
-57-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:37:13-56
-58            android:exported="false" />
-58-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:38:13-37
-59        <activity
-59-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:39:9-41:40
-60            android:name="com.kids.launcher.activity.timeLimit.ProfileLock"
-60-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:40:13-59
-61            android:exported="false" />
-61-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:41:13-37
-62        <activity
-62-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:42:9-44:40
-63            android:name="com.kids.launcher.activity.timeLimit.subFeatures.InputMonitoring"
-63-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:43:13-75
-64            android:exported="false" />
-64-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:44:13-37
-65        <activity android:name="com.kids.launcher.activity.profileManagement.AccessProfileManagementActivity" />
-65-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:45:9-96
-65-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:45:19-93
-66        <activity android:name="com.kids.launcher.activity.globalSettingsItems.pinLock.PinLockActivity" />
-66-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:46:9-90
-66-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:46:19-87
-67        <activity android:name="com.kids.launcher.activity.globalSettingsItems.patternLock.PatternLockActivity" />
-67-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:47:9-98
-67-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:47:19-95
-68        <activity android:name="com.kids.launcher.activity.UserManagement.UserDetailsActivity" />
-68-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:48:9-81
-68-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:48:19-78
-69        <activity android:name="com.kids.launcher.activity.profileManagement.ProfileDetailsActivity" />
-69-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:49:9-87
-69-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:49:19-84
-70        <activity
-70-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:50:9-52:40
-71            android:name="com.kids.launcher.activity.blockActivity.BlockActivity"
-71-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:51:13-82
-72            android:exported="false" />
-72-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:52:13-37
-73        <activity
-73-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:53:9-55:40
-74            android:name="com.kids.launcher.activity.timeLimit.TimeLimitActivity"
-74-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:54:13-65
-75            android:exported="false" />
-75-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:55:13-37
-76        <activity
-76-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:56:9-58:40
-77            android:name="com.kids.launcher.activity.timeLimit.subFeatures.UsageTimeLimit"
-77-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:57:13-74
-78            android:exported="false" />
-78-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:58:13-37
-79        <activity
-79-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:59:9-61:40
-80            android:name="com.kids.launcher.activity.profileManagement.CreateProfileManagement"
-80-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:60:13-96
-81            android:exported="false" />
-81-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:61:13-37
-82        <activity
-82-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:62:9-64:40
-83            android:name="com.kids.launcher.activity.profileManagement.ProfileManagement"
-83-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:63:13-90
-84            android:exported="false" />
-84-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:64:13-37
-85        <activity
-85-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:65:9-67:40
-86            android:name="com.kids.launcher.activity.timeLimit.subFeatures.AddFunProfiles"
-86-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:66:13-74
-87            android:exported="false" />
-87-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:67:13-37
-88        <activity
-88-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:68:9-70:40
-89            android:name="com.kids.launcher.activity.UserManagement.CreateUserActivity"
-89-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:69:13-88
-90            android:exported="false" />
-90-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:70:13-37
-91        <activity
-91-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:71:9-73:40
-92            android:name="com.kids.launcher.activity.UserManagement.UserManagementActivity"
-92-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:72:13-92
-93            android:exported="false" />
-93-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:73:13-37
-94        <activity
-94-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:74:9-76:40
-95            android:name="com.kids.launcher.activity.globalSettingsItems.AdminPassActivity"
-95-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:75:13-92
-96            android:exported="false" />
-96-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:76:13-37
-97        <activity
-97-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:77:9-79:40
-98            android:name="com.kids.launcher.activity.globalSettingsItems.LanguageActivity"
-98-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:78:13-91
-99            android:exported="false" />
-99-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:79:13-37
-100        <activity
-100-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:80:9-82:40
-101            android:name="com.kids.launcher.activity.GlobalSettingsActivity"
-101-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:81:13-77
-102            android:exported="false" />
-102-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:82:13-37
-103        <activity
-103-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:83:9-104:20
-104            android:name="com.kids.launcher.activity.MainActivity"
-104-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:84:13-67
-105            android:clearTaskOnLaunch="true"
-105-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:85:13-45
-106            android:excludeFromRecents="true"
-106-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:86:13-46
-107            android:exported="true"
-107-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:87:13-36
-108            android:label="@string/app_name"
-108-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:88:13-45
-109            android:launchMode="singleInstance"
-109-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:89:13-48
-110            android:stateNotNeeded="true"
-110-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:90:13-42
-111            android:taskAffinity=""
-111-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:91:13-36
-112            android:windowSoftInputMode="adjustNothing" >
-112-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:92:13-56
-113            <intent-filter>
-113-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:93:13-103:29
-114                <action android:name="android.intent.action.MAIN" />
-114-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:94:17-69
-114-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:94:25-66
-115
-116                <category android:name="android.intent.category.LAUNCHER" />
-116-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:96:17-77
-116-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:96:27-74
-117
-118                <action android:name="android.intent.action.VIEW" />
-118-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:98:17-69
-118-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:98:25-66
-119
-120                <category android:name="android.intent.category.HOME" />
-120-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:100:17-73
-120-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:100:27-70
-121                <category android:name="android.intent.category.DEFAULT" />
-121-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:17-76
-121-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:27-73
-122                <category android:name="android.intent.category.SAMPLE_CODE" />
-122-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:102:17-80
-122-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:102:27-77
-123            </intent-filter>
-124        </activity>
-125
-126        <meta-data
-126-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:106:9-108:35
-127            android:name="android.max_aspect"
-127-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:107:13-46
-128            android:value="2.1" />
-128-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:108:13-32
-129
-130        <activity
-130-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:110:9-115:49
-131            android:name="com.kids.launcher.activity.OnBoardActivity"
-131-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:111:13-70
-132            android:clearTaskOnLaunch="true"
-132-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:112:13-45
-133            android:exported="true"
-133-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:113:13-36
-134            android:label="@string/app_name"
-134-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:114:13-45
-135            android:theme="@style/IntroTheme" />
-135-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:115:13-46
-136        <activity
-136-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:116:9-118:39
-137            android:name="com.kids.launcher.activity.HomeActivity"
-137-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:117:13-67
-138            android:exported="true" />
-138-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:118:13-36
-139        <activity
-139-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:119:9-121:86
-140            android:name="com.kids.launcher.activity.AutoFinishActivity"
-140-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:120:13-73
-141            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-141-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:121:13-83
-142        <activity
-142-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:122:9-126:59
-143            android:name="com.kids.launcher.activity.MinibarEditActivity"
-143-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:123:13-74
-144            android:label="@string/minibar"
-144-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:124:13-44
-145            android:parentActivityName="com.kids.launcher.activity.HomeActivity"
-145-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:125:13-81
-146            android:theme="@style/NormalActivity.Light" />
-146-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:126:13-56
-147        <activity
-147-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:127:9-131:59
-148            android:name="com.kids.launcher.activity.SettingsActivity"
-148-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:128:13-71
-149            android:configChanges="orientation|keyboard|screenSize"
-149-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:129:13-68
-150            android:label="@string/pref_title__settings"
-150-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:130:13-57
-151            android:theme="@style/NormalActivity.Light" />
-151-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:131:13-56
-152        <activity
-152-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:132:9-135:59
-153            android:name="com.kids.launcher.activity.HideAppsActivity"
-153-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:133:13-71
-154            android:label="@string/app_name"
-154-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:134:13-45
-155            android:theme="@style/NormalActivity.Light" />
-155-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:135:13-56
-156        <activity
-156-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:136:9-146:20
-157            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
-157-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:137:13-76
-158            android:exported="true"
-158-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:138:13-36
-159            android:label="@string/app_name"
-159-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:139:13-45
-160            android:theme="@style/FilePickerTheme" >
-160-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:140:13-51
-161            <intent-filter>
-161-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:141:13-145:29
-162                <action android:name="android.intent.action.GET_CONTENT" />
-162-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:142:17-76
-162-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:142:25-73
-163
-164                <category android:name="android.intent.category.DEFAULT" />
-164-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:17-76
-164-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:27-73
-165            </intent-filter>
-166        </activity>
-167        <activity
-167-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:147:9-157:20
-168            android:name="com.kids.launcher.activity.AddShortcutActivity"
-168-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:148:13-74
-169            android:autoRemoveFromRecents="true"
-169-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:149:13-49
-170            android:excludeFromRecents="true"
-170-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:150:13-46
-171            android:exported="true"
-171-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:151:13-36
-172            android:label="@string/app_name"
-172-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:152:13-45
-173            android:theme="@style/FilePickerTheme" >
-173-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:153:13-51
-174            <intent-filter>
-174-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:154:13-156:29
-175                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
-175-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:155:17-89
-175-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:155:25-86
-176            </intent-filter>
-177        </activity>
-178
-179        <receiver
-179-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:159:9-170:20
-180            android:name="com.kids.launcher.receivers.DeviceAdminReceiver"
-180-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:160:13-75
-181            android:exported="true"
-181-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:161:13-36
-182            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-182-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:162:13-70
-183            <intent-filter>
-183-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:163:13-165:29
-184                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
-184-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:164:17-82
-184-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:164:25-79
-185            </intent-filter>
-186
-187            <meta-data
-187-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:167:13-169:56
-188                android:name="android.app.device_admin"
-188-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:168:17-56
-189                android:resource="@xml/device_admin" />
-189-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:169:17-53
-190        </receiver>
-191        <receiver
-191-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:171:9-178:20
-192            android:name="com.kids.launcher.receivers.ShortcutReceiver"
-192-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:172:13-72
-193            android:exported="true"
-193-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:173:13-36
-194            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT" >
-194-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:174:13-82
-195            <intent-filter>
-195-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:175:13-177:29
-196                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
-196-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:176:17-87
-196-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:176:25-84
-197            </intent-filter>
-198        </receiver>
-199
-200        <service
-200-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:180:9-189:19
-201            android:name="com.kids.launcher.notifications.NotificationListener"
-201-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:181:13-80
-202            android:enabled="true"
-202-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:182:13-35
-203            android:exported="true"
-203-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:183:13-36
-204            android:label="@string/icon_badge_service_title"
-204-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:184:13-61
-205            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
-205-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:185:13-87
-206            <intent-filter>
-206-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:186:13-188:29
-207                <action android:name="android.service.notification.NotificationListenerService" />
-207-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:187:17-99
-207-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:187:25-96
-208            </intent-filter>
-209        </service>
-210        <service
-210-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:190:9-195:45
-211            android:name="com.kids.launcher.system.TimeCheckerService"
-211-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:191:13-71
-212            android:enabled="true"
-212-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:192:13-35
-213            android:exported="false"
-213-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:193:13-37
-214            android:label="TimeUpChecker" />
-214-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:194:13-42
-215
-216        <provider
-217            android:name="androidx.core.content.FileProvider"
-217-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:198:13-62
-218            android:authorities="com.benny.openlauncher.debug.provider"
-218-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:199:13-60
-219            android:exported="false"
-219-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:200:13-37
-220            android:grantUriPermissions="true" >
-220-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:201:13-47
-221            <meta-data
-221-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:202:13-204:54
-222                android:name="android.support.FILE_PROVIDER_PATHS"
-222-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:203:17-67
-223                android:resource="@xml/file_paths" />
-223-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:204:17-51
-224        </provider>
-225
-226        <activity
-226-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:12:9-14:49
-227            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
-227-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:13:13-89
-228            android:process=":error_activity" />
-228-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:14:13-46
-229
-230        <provider
-230-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:16:9-20:39
-231            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
-231-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:17:13-85
-232            android:authorities="com.benny.openlauncher.debug.customactivityoncrashinitprovider"
-232-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:18:13-85
-233            android:exported="false"
-233-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:19:13-37
-234            android:initOrder="101" />
-234-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:20:13-36
-235
-236        <activity
-236-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
-237            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
-237-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
-238            android:screenOrientation="unspecified"
-238-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
-239            android:theme="@style/Theme.Transparent.ImagePicker" />
-239-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
-240        <activity
-240-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
-241            android:name="com.yalantis.ucrop.UCropActivity"
-241-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
-242            android:screenOrientation="portrait"
-242-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
-243            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-243-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
-244
-245        <provider
-245-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
-246            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
-246-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
-247            android:authorities="com.benny.openlauncher.debug.imagepicker.provider"
-247-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
-248            android:exported="false"
-248-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
-249            android:grantUriPermissions="true" >
-249-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
-250            <meta-data
-250-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:202:13-204:54
-251                android:name="android.support.FILE_PROVIDER_PATHS"
-251-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:203:17-67
-252                android:resource="@xml/image_picker_provider_paths" />
-252-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:204:17-51
-253        </provider>
-254        <provider
-254-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
-255            android:name="androidx.startup.InitializationProvider"
-255-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
-256            android:authorities="com.benny.openlauncher.debug.androidx-startup"
-256-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
-257            android:exported="false" >
-257-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
-258            <meta-data
-258-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
-259                android:name="androidx.work.WorkManagerInitializer"
-259-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
-260                android:value="androidx.startup" />
-260-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
-261            <meta-data
-261-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\fec2053bfbfe0108e64a4ccf317f3275\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-262                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-262-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\fec2053bfbfe0108e64a4ccf317f3275\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-263                android:value="androidx.startup" />
-263-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\fec2053bfbfe0108e64a4ccf317f3275\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-264            <meta-data
-264-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahsan\.gradle\caches\transforms-3\500dd7356ed913fa8bc0f46c89276245\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-265                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-265-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahsan\.gradle\caches\transforms-3\500dd7356ed913fa8bc0f46c89276245\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-266                android:value="androidx.startup" />
-266-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahsan\.gradle\caches\transforms-3\500dd7356ed913fa8bc0f46c89276245\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-267        </provider>
-268
-269        <service
-269-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
-270            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-270-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
-271            android:directBootAware="false"
-271-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
-272            android:enabled="@bool/enable_system_alarm_service_default"
-272-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
-273            android:exported="false" />
-273-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
-274        <service
-274-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
-275            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-275-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
-276            android:directBootAware="false"
-276-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
-277            android:enabled="@bool/enable_system_job_service_default"
-277-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
-278            android:exported="true"
-278-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
-279            android:permission="android.permission.BIND_JOB_SERVICE" />
-279-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
-280        <service
-280-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
-281            android:name="androidx.work.impl.foreground.SystemForegroundService"
-281-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
-282            android:directBootAware="false"
-282-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
-283            android:enabled="@bool/enable_system_foreground_service_default"
-283-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
-284            android:exported="false" />
-284-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
-285
-286        <receiver
-286-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
-287            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-287-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
-288            android:directBootAware="false"
-288-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
-289            android:enabled="true"
-289-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
-290            android:exported="false" />
-290-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
-291        <receiver
-291-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
-292            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-292-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
-293            android:directBootAware="false"
-293-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
-294            android:enabled="false"
-294-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
-295            android:exported="false" >
-295-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
-296            <intent-filter>
-296-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
-297                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-297-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
-297-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
-298                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-298-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
-298-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
-299            </intent-filter>
-300        </receiver>
-301        <receiver
-301-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
-302            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-302-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
-303            android:directBootAware="false"
-303-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
-304            android:enabled="false"
-304-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
-305            android:exported="false" >
-305-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
-306            <intent-filter>
-306-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
-307                <action android:name="android.intent.action.BATTERY_OKAY" />
-307-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
-307-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
-308                <action android:name="android.intent.action.BATTERY_LOW" />
-308-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
-308-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
-309            </intent-filter>
-310        </receiver>
-311        <receiver
-311-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
-312            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-312-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
-313            android:directBootAware="false"
-313-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
-314            android:enabled="false"
-314-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
-315            android:exported="false" >
-315-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
-316            <intent-filter>
-316-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
-317                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-317-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
-317-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
-318                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-318-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
-318-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
-319            </intent-filter>
-320        </receiver>
-321        <receiver
-321-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
-322            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-322-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
-323            android:directBootAware="false"
-323-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
-324            android:enabled="false"
-324-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
-325            android:exported="false" >
-325-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
-326            <intent-filter>
-326-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
-327                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-327-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
-327-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
-328            </intent-filter>
-329        </receiver>
-330        <receiver
-330-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
-331            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-331-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
-332            android:directBootAware="false"
-332-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
-333            android:enabled="false"
-333-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
-334            android:exported="false" >
-334-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
-335            <intent-filter>
-335-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
-336                <action android:name="android.intent.action.BOOT_COMPLETED" />
-336-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
-336-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
-337                <action android:name="android.intent.action.TIME_SET" />
-337-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
-337-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
-338                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-338-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
-338-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
-339            </intent-filter>
-340        </receiver>
-341        <receiver
-341-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
-342            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-342-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
-343            android:directBootAware="false"
-343-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
-344            android:enabled="@bool/enable_system_alarm_service_default"
-344-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
-345            android:exported="false" >
-345-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
-346            <intent-filter>
-346-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
-347                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-347-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
-347-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
-348            </intent-filter>
-349        </receiver>
-350        <receiver
-350-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
-351            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-351-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
-352            android:directBootAware="false"
-352-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
-353            android:enabled="true"
-353-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
-354            android:exported="true"
-354-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
-355            android:permission="android.permission.DUMP" >
-355-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
-356            <intent-filter>
-356-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
-357                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-357-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
-357-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
-358            </intent-filter>
-359        </receiver>
-360
-361        <service
-361-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
-362            android:name="androidx.room.MultiInstanceInvalidationService"
-362-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
-363            android:directBootAware="true"
-363-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
-364            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-364-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
-365        <activity
-365-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
-366            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-366-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
-367            android:enabled="false"
-367-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
-368            android:exported="false"
-368-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
-369            android:launchMode="singleInstance"
-369-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
-370            android:process=":playcore_missing_splits_activity"
-370-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
-371            android:stateNotNeeded="true" />
-371-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
-372        <activity
-372-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
-373            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-373-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
-374            android:exported="false"
-374-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
-375            android:stateNotNeeded="true"
-375-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
-376            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-376-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
-377        <service
-377-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
-378            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-378-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
-379            android:enabled="false"
-379-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
-380            android:exported="true" >
-380-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
-381            <meta-data
-381-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
-382                android:name="com.google.android.play.core.assetpacks.versionCode"
-382-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
-383                android:value="11003" />
-383-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
-384        </service>
-385        <service
-385-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
-386            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-386-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
-387            android:enabled="false"
-387-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
-388            android:exported="false" />
-388-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
-389
-390        <provider
-390-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:10:9-14:43
-391            android:name="razerdp.basepopup.BasePopupInitializer"
-391-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:11:13-66
-392            android:authorities="com.github.razerdp.com.benny.openlauncher.debug.BasePopupInitializer"
-392-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:12:13-91
-393            android:exported="false"
-393-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:13:13-37
-394            android:multiprocess="true" />
-394-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:14:13-40
-395
-396        <uses-library
-396-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-397            android:name="androidx.window.extensions"
-397-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-398            android:required="false" />
-398-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-399        <uses-library
-399-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-400            android:name="androidx.window.sidecar"
-400-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-401            android:required="false" />
-401-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-402    </application>
-403
-404</manifest>
+54        android:theme="@style/Home.Light" >
+54-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:35:9-42
+55        <activity
+55-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:36:9-38:40
+56            android:name="com.kids.launcher.activity.timeLimit.UserLock"
+56-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:37:13-56
+57            android:exported="false" />
+57-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:38:13-37
+58        <activity
+58-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:39:9-41:40
+59            android:name="com.kids.launcher.activity.timeLimit.ProfileLock"
+59-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:40:13-59
+60            android:exported="false" />
+60-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:41:13-37
+61        <activity
+61-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:42:9-44:40
+62            android:name="com.kids.launcher.activity.timeLimit.subFeatures.InputMonitoring"
+62-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:43:13-75
+63            android:exported="false" />
+63-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:44:13-37
+64        <activity android:name="com.kids.launcher.activity.profileManagement.AccessProfileManagementActivity" />
+64-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:45:9-96
+64-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:45:19-93
+65        <activity android:name="com.kids.launcher.activity.globalSettingsItems.pinLock.PinLockActivity" />
+65-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:46:9-90
+65-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:46:19-87
+66        <activity android:name="com.kids.launcher.activity.globalSettingsItems.patternLock.PatternLockActivity" />
+66-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:47:9-98
+66-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:47:19-95
+67        <activity android:name="com.kids.launcher.activity.UserManagement.UserDetailsActivity" />
+67-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:48:9-81
+67-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:48:19-78
+68        <activity android:name="com.kids.launcher.activity.profileManagement.ProfileDetailsActivity" />
+68-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:49:9-87
+68-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:49:19-84
+69        <activity
+69-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:50:9-52:40
+70            android:name="com.kids.launcher.activity.blockActivity.BlockActivity"
+70-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:51:13-82
+71            android:exported="false" />
+71-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:52:13-37
+72        <activity
+72-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:53:9-55:40
+73            android:name="com.kids.launcher.activity.timeLimit.TimeLimitActivity"
+73-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:54:13-65
+74            android:exported="false" />
+74-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:55:13-37
+75        <activity
+75-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:56:9-58:40
+76            android:name="com.kids.launcher.activity.timeLimit.subFeatures.UsageTimeLimit"
+76-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:57:13-74
+77            android:exported="false" />
+77-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:58:13-37
+78        <activity
+78-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:59:9-61:40
+79            android:name="com.kids.launcher.activity.profileManagement.CreateProfileManagement"
+79-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:60:13-96
+80            android:exported="false" />
+80-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:61:13-37
+81        <activity
+81-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:62:9-64:40
+82            android:name="com.kids.launcher.activity.profileManagement.ProfileManagement"
+82-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:63:13-90
+83            android:exported="false" />
+83-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:64:13-37
+84        <activity
+84-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:65:9-67:40
+85            android:name="com.kids.launcher.activity.timeLimit.subFeatures.AddFunProfiles"
+85-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:66:13-74
+86            android:exported="false" />
+86-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:67:13-37
+87        <activity
+87-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:68:9-70:40
+88            android:name="com.kids.launcher.activity.UserManagement.CreateUserActivity"
+88-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:69:13-88
+89            android:exported="false" />
+89-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:70:13-37
+90        <activity
+90-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:71:9-73:40
+91            android:name="com.kids.launcher.activity.UserManagement.UserManagementActivity"
+91-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:72:13-92
+92            android:exported="false" />
+92-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:73:13-37
+93        <activity
+93-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:74:9-76:40
+94            android:name="com.kids.launcher.activity.globalSettingsItems.AdminPassActivity"
+94-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:75:13-92
+95            android:exported="false" />
+95-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:76:13-37
+96        <activity
+96-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:77:9-79:40
+97            android:name="com.kids.launcher.activity.globalSettingsItems.LanguageActivity"
+97-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:78:13-91
+98            android:exported="false" />
+98-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:79:13-37
+99        <activity
+99-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:80:9-82:40
+100            android:name="com.kids.launcher.activity.GlobalSettingsActivity"
+100-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:81:13-77
+101            android:exported="false" />
+101-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:82:13-37
+102        <activity
+102-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:83:9-104:20
+103            android:name="com.kids.launcher.activity.MainActivity"
+103-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:84:13-67
+104            android:clearTaskOnLaunch="true"
+104-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:85:13-45
+105            android:excludeFromRecents="true"
+105-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:86:13-46
+106            android:exported="true"
+106-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:87:13-36
+107            android:label="@string/app_name"
+107-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:88:13-45
+108            android:launchMode="singleInstance"
+108-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:89:13-48
+109            android:stateNotNeeded="true"
+109-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:90:13-42
+110            android:taskAffinity=""
+110-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:91:13-36
+111            android:windowSoftInputMode="adjustNothing" >
+111-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:92:13-56
+112            <intent-filter>
+112-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:93:13-103:29
+113                <action android:name="android.intent.action.MAIN" />
+113-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:94:17-69
+113-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:94:25-66
+114
+115                <category android:name="android.intent.category.LAUNCHER" />
+115-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:96:17-77
+115-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:96:27-74
+116
+117                <action android:name="android.intent.action.VIEW" />
+117-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:98:17-69
+117-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:98:25-66
+118
+119                <category android:name="android.intent.category.HOME" />
+119-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:100:17-73
+119-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:100:27-70
+120                <category android:name="android.intent.category.DEFAULT" />
+120-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:17-76
+120-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:27-73
+121                <category android:name="android.intent.category.SAMPLE_CODE" />
+121-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:102:17-80
+121-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:102:27-77
+122            </intent-filter>
+123        </activity>
+124
+125        <meta-data
+125-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:106:9-108:35
+126            android:name="android.max_aspect"
+126-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:107:13-46
+127            android:value="2.1" />
+127-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:108:13-32
+128
+129        <activity
+129-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:110:9-115:49
+130            android:name="com.kids.launcher.activity.OnBoardActivity"
+130-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:111:13-70
+131            android:clearTaskOnLaunch="true"
+131-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:112:13-45
+132            android:exported="true"
+132-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:113:13-36
+133            android:label="@string/app_name"
+133-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:114:13-45
+134            android:theme="@style/IntroTheme" />
+134-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:115:13-46
+135        <activity
+135-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:116:9-118:39
+136            android:name="com.kids.launcher.activity.HomeActivity"
+136-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:117:13-67
+137            android:exported="true" />
+137-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:118:13-36
+138        <activity
+138-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:119:9-121:86
+139            android:name="com.kids.launcher.activity.AutoFinishActivity"
+139-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:120:13-73
+140            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+140-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:121:13-83
+141        <activity
+141-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:122:9-126:59
+142            android:name="com.kids.launcher.activity.MinibarEditActivity"
+142-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:123:13-74
+143            android:label="@string/minibar"
+143-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:124:13-44
+144            android:parentActivityName="com.kids.launcher.activity.HomeActivity"
+144-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:125:13-81
+145            android:theme="@style/NormalActivity.Light" />
+145-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:126:13-56
+146        <activity
+146-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:127:9-131:59
+147            android:name="com.kids.launcher.activity.SettingsActivity"
+147-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:128:13-71
+148            android:configChanges="orientation|keyboard|screenSize"
+148-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:129:13-68
+149            android:label="@string/pref_title__settings"
+149-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:130:13-57
+150            android:theme="@style/NormalActivity.Light" />
+150-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:131:13-56
+151        <activity
+151-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:132:9-135:59
+152            android:name="com.kids.launcher.activity.HideAppsActivity"
+152-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:133:13-71
+153            android:label="@string/app_name"
+153-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:134:13-45
+154            android:theme="@style/NormalActivity.Light" />
+154-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:135:13-56
+155        <activity
+155-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:136:9-146:20
+156            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+156-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:137:13-76
+157            android:exported="true"
+157-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:138:13-36
+158            android:label="@string/app_name"
+158-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:139:13-45
+159            android:theme="@style/FilePickerTheme" >
+159-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:140:13-51
+160            <intent-filter>
+160-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:141:13-145:29
+161                <action android:name="android.intent.action.GET_CONTENT" />
+161-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:142:17-76
+161-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:142:25-73
+162
+163                <category android:name="android.intent.category.DEFAULT" />
+163-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:17-76
+163-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:101:27-73
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:147:9-157:20
+167            android:name="com.kids.launcher.activity.AddShortcutActivity"
+167-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:148:13-74
+168            android:autoRemoveFromRecents="true"
+168-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:149:13-49
+169            android:excludeFromRecents="true"
+169-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:150:13-46
+170            android:exported="true"
+170-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:151:13-36
+171            android:label="@string/app_name"
+171-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:152:13-45
+172            android:theme="@style/FilePickerTheme" >
+172-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:153:13-51
+173            <intent-filter>
+173-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:154:13-156:29
+174                <action android:name="android.content.pm.action.CONFIRM_PIN_SHORTCUT" />
+174-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:155:17-89
+174-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:155:25-86
+175            </intent-filter>
+176        </activity>
+177
+178        <receiver
+178-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:159:9-170:20
+179            android:name="com.kids.launcher.receivers.DeviceAdminReceiver"
+179-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:160:13-75
+180            android:exported="true"
+180-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:161:13-36
+181            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+181-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:162:13-70
+182            <intent-filter>
+182-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:163:13-165:29
+183                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+183-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:164:17-82
+183-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:164:25-79
+184            </intent-filter>
+185
+186            <meta-data
+186-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:167:13-169:56
+187                android:name="android.app.device_admin"
+187-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:168:17-56
+188                android:resource="@xml/device_admin" />
+188-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:169:17-53
+189        </receiver>
+190        <receiver
+190-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:171:9-178:20
+191            android:name="com.kids.launcher.receivers.ShortcutReceiver"
+191-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:172:13-72
+192            android:exported="true"
+192-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:173:13-36
+193            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT" >
+193-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:174:13-82
+194            <intent-filter>
+194-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:175:13-177:29
+195                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+195-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:176:17-87
+195-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:176:25-84
+196            </intent-filter>
+197        </receiver>
+198
+199        <service
+199-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:180:9-189:19
+200            android:name="com.kids.launcher.notifications.NotificationListener"
+200-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:181:13-80
+201            android:enabled="true"
+201-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:182:13-35
+202            android:exported="true"
+202-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:183:13-36
+203            android:label="@string/icon_badge_service_title"
+203-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:184:13-61
+204            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+204-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:185:13-87
+205            <intent-filter>
+205-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:186:13-188:29
+206                <action android:name="android.service.notification.NotificationListenerService" />
+206-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:187:17-99
+206-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:187:25-96
+207            </intent-filter>
+208        </service>
+209        <service
+209-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:190:9-195:45
+210            android:name="com.kids.launcher.system.TimeCheckerService"
+210-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:191:13-71
+211            android:enabled="true"
+211-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:192:13-35
+212            android:exported="false"
+212-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:193:13-37
+213            android:label="TimeUpChecker" />
+213-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:194:13-42
+214
+215        <provider
+216            android:name="androidx.core.content.FileProvider"
+216-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:198:13-62
+217            android:authorities="com.benny.openlauncher.debug.provider"
+217-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:199:13-60
+218            android:exported="false"
+218-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:200:13-37
+219            android:grantUriPermissions="true" >
+219-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:201:13-47
+220            <meta-data
+220-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:202:13-204:54
+221                android:name="android.support.FILE_PROVIDER_PATHS"
+221-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:203:17-67
+222                android:resource="@xml/file_paths" />
+222-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:204:17-51
+223        </provider>
+224
+225        <activity
+225-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:12:9-14:49
+226            android:name="cat.ereza.customactivityoncrash.activity.DefaultErrorActivity"
+226-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:13:13-89
+227            android:process=":error_activity" />
+227-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:14:13-46
+228
+229        <provider
+229-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:16:9-20:39
+230            android:name="cat.ereza.customactivityoncrash.provider.CaocInitProvider"
+230-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:17:13-85
+231            android:authorities="com.benny.openlauncher.debug.customactivityoncrashinitprovider"
+231-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:18:13-85
+232            android:exported="false"
+232-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:19:13-37
+233            android:initOrder="101" />
+233-->[cat.ereza:customactivityoncrash:2.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\1e562f308e73e9229e12c5726702230f\transformed\jetified-customactivityoncrash-2.2.0\AndroidManifest.xml:20:13-36
+234
+235        <activity
+235-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+236            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+236-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
+237            android:screenOrientation="unspecified"
+237-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
+238            android:theme="@style/Theme.Transparent.ImagePicker" />
+238-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
+239        <activity
+239-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+240            android:name="com.yalantis.ucrop.UCropActivity"
+240-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
+241            android:screenOrientation="portrait"
+241-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
+242            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+242-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
+243
+244        <provider
+244-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+245            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+245-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
+246            android:authorities="com.benny.openlauncher.debug.imagepicker.provider"
+246-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
+247            android:exported="false"
+247-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
+248            android:grantUriPermissions="true" >
+248-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\ahsan\.gradle\caches\transforms-3\fdea3e94f3cb60162715fc6b69eaa8b1\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
+249            <meta-data
+249-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:202:13-204:54
+250                android:name="android.support.FILE_PROVIDER_PATHS"
+250-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:203:17-67
+251                android:resource="@xml/image_picker_provider_paths" />
+251-->D:\Programming\AndroidProjects\ChaudhryUpdatedKidsLauncher\app\src\main\AndroidManifest.xml:204:17-51
+252        </provider>
+253        <provider
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+254            android:name="androidx.startup.InitializationProvider"
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+255            android:authorities="com.benny.openlauncher.debug.androidx-startup"
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+256            android:exported="false" >
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+257            <meta-data
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+258                android:name="androidx.work.WorkManagerInitializer"
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+259                android:value="androidx.startup" />
+259-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+260            <meta-data
+260-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\fec2053bfbfe0108e64a4ccf317f3275\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+261                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+261-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\fec2053bfbfe0108e64a4ccf317f3275\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+262                android:value="androidx.startup" />
+262-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\fec2053bfbfe0108e64a4ccf317f3275\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+263            <meta-data
+263-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahsan\.gradle\caches\transforms-3\500dd7356ed913fa8bc0f46c89276245\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+264                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+264-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahsan\.gradle\caches\transforms-3\500dd7356ed913fa8bc0f46c89276245\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+265                android:value="androidx.startup" />
+265-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ahsan\.gradle\caches\transforms-3\500dd7356ed913fa8bc0f46c89276245\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+266        </provider>
+267
+268        <service
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+269            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+270            android:directBootAware="false"
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+271            android:enabled="@bool/enable_system_alarm_service_default"
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+272            android:exported="false" />
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+273        <service
+273-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+274            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+274-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+275            android:directBootAware="false"
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+276            android:enabled="@bool/enable_system_job_service_default"
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+277            android:exported="true"
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+278            android:permission="android.permission.BIND_JOB_SERVICE" />
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+279        <service
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+280            android:name="androidx.work.impl.foreground.SystemForegroundService"
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+281            android:directBootAware="false"
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+282            android:enabled="@bool/enable_system_foreground_service_default"
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+283            android:exported="false" />
+283-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+284
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+286            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+288            android:enabled="true"
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+289            android:exported="false" />
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+290        <receiver
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+293            android:enabled="false"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+296                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+297                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+298            </intent-filter>
+299        </receiver>
+300        <receiver
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+301            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+302            android:directBootAware="false"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+303            android:enabled="false"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+304            android:exported="false" >
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+305            <intent-filter>
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+306                <action android:name="android.intent.action.BATTERY_OKAY" />
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+307                <action android:name="android.intent.action.BATTERY_LOW" />
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+308            </intent-filter>
+309        </receiver>
+310        <receiver
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+311            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+312            android:directBootAware="false"
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+313            android:enabled="false"
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+314            android:exported="false" >
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+315            <intent-filter>
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+316                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+317                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+318            </intent-filter>
+319        </receiver>
+320        <receiver
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+321            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+322            android:directBootAware="false"
+322-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+323            android:enabled="false"
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+324            android:exported="false" >
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+325            <intent-filter>
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+326                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+327            </intent-filter>
+328        </receiver>
+329        <receiver
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+330            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+332            android:enabled="false"
+332-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+333            android:exported="false" >
+333-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+334            <intent-filter>
+334-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+335                <action android:name="android.intent.action.BOOT_COMPLETED" />
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+336                <action android:name="android.intent.action.TIME_SET" />
+336-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+336-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+337                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+337-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+337-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+338            </intent-filter>
+339        </receiver>
+340        <receiver
+340-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+341            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+341-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+342            android:directBootAware="false"
+342-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+343            android:enabled="@bool/enable_system_alarm_service_default"
+343-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+344            android:exported="false" >
+344-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+345            <intent-filter>
+345-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+346                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+346-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+346-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+347            </intent-filter>
+348        </receiver>
+349        <receiver
+349-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+350            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+350-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+351            android:directBootAware="false"
+351-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+352            android:enabled="true"
+352-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+353            android:exported="true"
+353-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+354            android:permission="android.permission.DUMP" >
+354-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+355            <intent-filter>
+355-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+356                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+356-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+356-->[androidx.work:work-runtime:2.7.1] C:\Users\ahsan\.gradle\caches\transforms-3\5de2d47dda0e64464d1dc78991991739\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+357            </intent-filter>
+358        </receiver>
+359
+360        <service
+360-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+361            android:name="androidx.room.MultiInstanceInvalidationService"
+361-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+362            android:directBootAware="true"
+362-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+363            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+363-->[androidx.room:room-runtime:2.4.2] C:\Users\ahsan\.gradle\caches\transforms-3\9f9e35b7a659ec39bb9f8af2fe6e182e\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+364        <activity
+364-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:18:9-24:45
+365            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+365-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:19:13-100
+366            android:enabled="false"
+366-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:20:13-36
+367            android:exported="false"
+367-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:21:13-37
+368            android:launchMode="singleInstance"
+368-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:22:13-48
+369            android:process=":playcore_missing_splits_activity"
+369-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:23:13-64
+370            android:stateNotNeeded="true" />
+370-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:24:13-42
+371        <activity
+371-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:25:9-29:65
+372            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+372-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:26:13-93
+373            android:exported="false"
+373-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:27:13-37
+374            android:stateNotNeeded="true"
+374-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:28:13-42
+375            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+375-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:29:13-62
+376        <service
+376-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:32:9-39:19
+377            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+377-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:33:13-94
+378            android:enabled="false"
+378-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:34:13-36
+379            android:exported="true" >
+379-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:35:13-36
+380            <meta-data
+380-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:36:13-38:41
+381                android:name="com.google.android.play.core.assetpacks.versionCode"
+381-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:37:17-83
+382                android:value="11003" />
+382-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:38:17-38
+383        </service>
+384        <service
+384-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:40:9-43:40
+385            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+385-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:41:13-95
+386            android:enabled="false"
+386-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:42:13-36
+387            android:exported="false" />
+387-->[com.google.android.play:core:1.10.3] C:\Users\ahsan\.gradle\caches\transforms-3\ced41d90f7758c3d2d8e1c4dfa3262c1\transformed\jetified-core-1.10.3\AndroidManifest.xml:43:13-37
+388
+389        <provider
+389-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:10:9-14:43
+390            android:name="razerdp.basepopup.BasePopupInitializer"
+390-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:11:13-66
+391            android:authorities="com.github.razerdp.com.benny.openlauncher.debug.BasePopupInitializer"
+391-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:12:13-91
+392            android:exported="false"
+392-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:13:13-37
+393            android:multiprocess="true" />
+393-->[io.github.razerdp:BasePopup:3.2.0] C:\Users\ahsan\.gradle\caches\transforms-3\5656d729312940bf676964f51cc9b09b\transformed\jetified-BasePopup-3.2.0\AndroidManifest.xml:14:13-40
+394
+395        <uses-library
+395-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+396            android:name="androidx.window.extensions"
+396-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+397            android:required="false" />
+397-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+398        <uses-library
+398-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+399            android:name="androidx.window.sidecar"
+399-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+400            android:required="false" />
+400-->[androidx.window:window:1.0.0] C:\Users\ahsan\.gradle\caches\transforms-3\c862b67c583de24c1561f9a62b837981\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+401    </application>
+402
+403</manifest>
