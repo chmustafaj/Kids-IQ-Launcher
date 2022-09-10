@@ -182,67 +182,36 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                 if (profile.name.equals(profileName)) {
                     Date lockDate=null;
                     Date lockTime=null;
-                    Log.d(TAG, "checkTimeup: usage time"+profile.strUsageTimes);
-                    Log.d(TAG, "checkTimeup: lock time "+profile.lockTime);
-                    Log.d(TAG, "checkTimeup: lock date "+profile.lockDate);
-                    Log.d(TAG, "checkTimeup: current date "+currentDate);
-                    Log.d(TAG, "checkTimeup: current time "+strCurrentTime);
-                    Log.d(TAG, "checkTimeup: lock "+profile.lock);
-                    try {
-                        lockDate =df.parse(profile.lockDate);
-                    } catch (ParseException e) {
-                        e.printStackTrace();
-                    }
-                    try {
-                        lockTime=mdformat.parse(profile.lockTime);
-                    } catch (ParseException e) {
-                        e.printStackTrace();
-                    }
-                    if(lockDate!=null&&curr!=null&&lockTime!=null){
-                        if(lockDate.after(curr)){
-                            Toast.makeText(context, "Profile Locked", Toast.LENGTH_SHORT).show();
-                            return new Pair<>(true, profile.name);
-                        }else if(curr.equals(lockDate)){
-                            if(lockTime.after(currTime)){
+                    if(profile.lock){
+
+                        try {
+                            lockDate =df.parse(profile.lockDate);
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            lockTime=mdformat.parse(profile.lockTime);
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
+                        if(lockDate!=null&&curr!=null&&lockTime!=null){
+                            if(lockDate.after(curr)){
                                 Toast.makeText(context, "Profile Locked", Toast.LENGTH_SHORT).show();
                                 return new Pair<>(true, profile.name);
-                            }
-                        }
-                    } //checking if user is blocked
-                    try {
-                        lockDate =df.parse(user.lockDate);
-                    } catch (ParseException e) {
-                        e.printStackTrace();
-                    }
-                    try {
-                        lockTime=mdformat.parse(user.lockTime);
-                    } catch (ParseException e) {
-                        e.printStackTrace();
-                    }
-                    if(lockDate!=null&&curr!=null&&lockTime!=null){
-                        if(lockDate.after(curr)){
-                            Toast.makeText(context, "User Locked", Toast.LENGTH_SHORT).show();
-                            return new Pair<>(true, profile.name);
-                        }else if(curr.equals(lockDate)){
-                            if(lockTime.after(currTime)){
-                                Toast.makeText(context, "User Locked", Toast.LENGTH_SHORT).show();
-                                return new Pair<>(true, profile.name);
+                            }else if(curr.equals(lockDate)){
+                                if(lockTime.after(currTime)){
+                                    Toast.makeText(context, "Profile Locked", Toast.LENGTH_SHORT).show();
+                                    return new Pair<>(true, profile.name);
+                                }
                             }
                         }
                     }
-                    if(profile.lock){
-                        Toast.makeText(context, "Profile Locked", Toast.LENGTH_SHORT).show();
-                        return new Pair<>(true, profile.name);
-                    }
-                    if(user.lock){
-                        Toast.makeText(context, "User Locked", Toast.LENGTH_SHORT).show();
-                        return new Pair<>(true, profile.name);
-                    }
+
                     //checking if user is taking a 30 minute break after 60 seconds
 
                     float currentTime = timeFromStringToFloat(strCurrentTime);
                     if (profile.timeBreakStarted != 0) {
-                        if (currentTime - profile.timeBreakStarted > (float) profile.breakTime / 60) {   // TODO: 07/08/2022 change to 1 later. This is for seconds for testing purposes
+                        if (currentTime - profile.timeBreakStarted > (float) profile.breakTime) {
                             pauseAfterTime = 0;
                             PrefUtils.setTimeBreakStarted(context, profile.name, user, 0);
                         }
@@ -262,6 +231,7 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                     if (profile.timelimit == -1) {
                     }
                     timePass = TimeManagementUtils.getInstance(context).getTimeByProfileName(profileName);
+                    Log.d(TAG, "checkTimeup: time left "+(profile.timelimit-timePass));
                     if (profile.timelimit - timePass >= 0) {
                         TimeManagementUtils.getInstance(context).setTimePassed(profileName, timePass + 1);
 
@@ -384,7 +354,7 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                 earnTimeForProfiles(context);
             } else {
             }
-        }, 15000);  // TODO: 11/08/2022 change to 15 minutes later
+        }, 900000);
     }
 
     int addedTimeCount = 0;
@@ -482,7 +452,6 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
                     setUsageTimes(usageTimes);
                     if (profile.inputDetectionTime != -1) {
                         DISCONNECT_TIMEOUT = profile.inputDetectionTime * 1000L;   //converting to millis
-                        // TODO: 12/08/2022 convert from seconds to minutes 
                     }
                     addDailyTimeCharge(profile, user, HomeActivity.this);
                 }
@@ -637,8 +606,7 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
         // when the screen is about to turn off
         if (ScreenReceiver.wasScreenOn) {
             // this is the case when onPause() is called by the system due to a screen state change
-            active = false;
-            Log.e("MYAPP", "SCREEN TURNED OFF");
+            Log.d("MYAPP", "active SCREEN TURNED OFF");
         } else {
             // this is when onPause() is called when the screen state has not changed
         }
@@ -900,6 +868,7 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
     @Override
     public void onResume() {
         super.onResume();
+        Log.d(TAG, "onResume: ");
         _appWidgetHost.startListening();
         _launcher = this;
 
@@ -1028,7 +997,7 @@ public final class HomeActivity extends InputDetection implements OnDesktopEditL
             if (active) {
                 runPeriodicTimeUpCheck();
             }
-        }, 1000);   // TODO: 07/08/2022 change to make it for minutes instead of seconds
+        }, 60000);
 
         return timeUp;
     }

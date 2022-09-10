@@ -142,37 +142,40 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> 
             Date lockTime=null;
             Date currTime=null;
             Date curr=null;
-            try {
-                curr = df.parse(currentDate);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-            try {
-                currTime=mdformat.parse(strCurrentTime);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-            try {
-                lockDate =df.parse(user.lockDate);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-            try {
-                lockTime=mdformat.parse(user.lockTime);
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-            if(lockDate!=null&&curr!=null&&lockTime!=null){
-                if(lockDate.after(curr)){
-                    Toast.makeText(context, "User Locked", Toast.LENGTH_SHORT).show();
-                    return true;
-                }else if(curr.equals(lockDate)){
-                    if(lockTime.after(currTime)){
+            if(user.lock){
+                try {
+                    curr = df.parse(currentDate);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    currTime=mdformat.parse(strCurrentTime);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    lockDate =df.parse(user.lockDate);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    lockTime=mdformat.parse(user.lockTime);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                if(lockDate!=null&&curr!=null&&lockTime!=null){
+                    if(lockDate.after(curr)){
                         Toast.makeText(context, "User Locked", Toast.LENGTH_SHORT).show();
                         return true;
+                    }else if(curr.equals(lockDate)){
+                        if(lockTime.after(currTime)){
+                            Toast.makeText(context, "User Locked", Toast.LENGTH_SHORT).show();
+                            return true;
+                        }
                     }
                 }
             }
+
             return false;
         }
 

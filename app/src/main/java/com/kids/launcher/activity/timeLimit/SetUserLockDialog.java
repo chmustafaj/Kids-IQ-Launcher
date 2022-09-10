@@ -25,6 +25,10 @@ public class SetUserLockDialog extends DialogFragment {
         View view = getActivity().getLayoutInflater().inflate(R.layout.set_lock_popup, null);
         initViews(view);
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()).setView(view).setTitle("");
+        Bundle bundle = getArguments();
+        if(bundle!=null){
+            switchMaterial.setChecked(bundle.getBoolean("lock"));
+        }
         btnDone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

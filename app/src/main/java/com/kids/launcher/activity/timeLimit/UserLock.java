@@ -94,6 +94,12 @@ public class UserLock extends AppCompatActivity  implements SetUserLockDialog.Pa
             @Override
             public void onClick(View view) {
                 SetUserLockDialog setUserLockDialog = new SetUserLockDialog();
+                boolean isLocked=false;
+                User user = PrefUtils.fetchUser(usr,UserLock.this, new Gson()); //checking if the lock is set, in case we are updating the profile lock
+                isLocked=user.lock;
+                Bundle bundle = new Bundle();
+                bundle.putBoolean("lock",isLocked);
+                setUserLockDialog.setArguments(bundle);
                 setUserLockDialog.show(getSupportFragmentManager(),"set lock");
             }
         });

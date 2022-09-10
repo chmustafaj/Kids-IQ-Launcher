@@ -96,7 +96,17 @@ public class ProfileLock extends AppCompatActivity implements SetProfileLockDial
         setLock.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                boolean isLocked=false;
+                User user = PrefUtils.fetchUser(usr,ProfileLock.this, new Gson()); //checking if the lock is set, in case we are updating the profile lock
+                for (Profile p : user.profiles) {
+                    if (p.name.equals(profileName)) {
+                        isLocked=p.lock;
+                    }
+                }
                 SetProfileLockDialog setProfileLockBooleanDialog = new SetProfileLockDialog();
+                Bundle bundle = new Bundle();
+                bundle.putBoolean("lock",isLocked);
+                setProfileLockBooleanDialog.setArguments(bundle);
                 setProfileLockBooleanDialog.show(getSupportFragmentManager(),"set lock");
             }
         });
@@ -218,7 +228,7 @@ public class ProfileLock extends AppCompatActivity implements SetProfileLockDial
                     if (p.name.equals(profileName)) {
                         if(!p.lockDate.equals("")){
                             profile.lockDate = p.lockDate;
-                            setDate.setText(profile.lockDate);
+                            showDate.setText(profile.lockDate);
                         }
                     }
                 }

@@ -2,6 +2,7 @@ package com.kids.launcher.activity.timeLimit;
 
 import android.app.Dialog;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -25,11 +26,16 @@ public class SetProfileLockDialog extends DialogFragment {
         View view = getActivity().getLayoutInflater().inflate(R.layout.set_lock_popup, null);
         initViews(view);
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity()).setView(view).setTitle("");
+        Bundle bundle = getArguments();
+        if(bundle!=null){
+            switchMaterial.setChecked(bundle.getBoolean("lock"));
+        }
         btnDone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
                     passLockBooleanInterface = (PassLockBooleanInterface) getActivity();
+                    Log.d(TAG, "onClick: setting lock "+switchMaterial.isChecked());
                     passLockBooleanInterface.setLock(switchMaterial.isChecked());
                     dismiss();
                 } catch (ClassCastException e) {
